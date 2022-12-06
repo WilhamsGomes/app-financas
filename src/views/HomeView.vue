@@ -4,6 +4,7 @@
       <SideBarRight/>
       <HeaderBar/>
       <SubHeader/>
+      <GraphicInicial/>
     </v-container>
 </template>
 
@@ -13,6 +14,7 @@ import SideBar from '@/components/SideBar.vue';
 import SideBarRight from '@/components/SideBarRight.vue';
 import HeaderBar from "@/components/HeaderBar.vue";
 import SubHeader from '@/components/SubHeader.vue';
+import GraphicInicial from '@/components/GraphicInicial.vue';
 
 export default {
   name: 'HomeView',
@@ -21,7 +23,8 @@ export default {
     SideBar,
     SideBarRight,
     HeaderBar,
-    SubHeader
+    SubHeader,
+    GraphicInicial
   },
 };
 </script>
