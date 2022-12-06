@@ -1,9 +1,10 @@
 <template>
-    <v-app>
+    <v-container>
       <SideBar/>
       <SideBarRight/>
       <HeaderBar/>
-    </v-app>
+      <SubHeader/>
+    </v-container>
 </template>
 
 <script>
@@ -11,6 +12,7 @@
 import SideBar from '@/components/SideBar.vue';
 import SideBarRight from '@/components/SideBarRight.vue';
 import HeaderBar from "@/components/HeaderBar.vue";
+import SubHeader from '@/components/SubHeader.vue';
 
 export default {
   name: 'HomeView',
@@ -18,7 +20,8 @@ export default {
   components: {
     SideBar,
     SideBarRight,
-    HeaderBar
+    HeaderBar,
+    SubHeader
   },
 };
 </script>
