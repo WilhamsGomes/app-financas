@@ -24,7 +24,7 @@ export default {
     SideBarRight,
     HeaderBar,
     SubHeader,
-    GraphicInicial
+    GraphicInicial,
   },
 };
 </script>

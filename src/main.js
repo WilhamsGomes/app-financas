@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
+import VueApexCharts from "vue3-apexcharts"
 import { loadFonts } from './plugins/webfontloader'
 
 loadFonts()
@@ -10,5 +11,6 @@ loadFonts()
 createApp(App)
   .use(router)
   .use(store)
+  .use(VueApexCharts)
   .use(vuetify)
   .mount('#app')
